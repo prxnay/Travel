@@ -1,0 +1,162 @@
+body {
+    font-family: Georgia;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header {
+    font-family: Georgia;
+    padding: 80px 200px;
+    text-align: center;
+    background-image:url("images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.header2 {
+    font-family: Georgia;
+    padding: 80px 200px;
+    text-align: center;
+    background-image:url("images/culture.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.header3 {
+    font-family: Georgia;
+    padding: 80px 200px;
+    text-align: center;
+    background-image:url("images/destination.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.header4 {
+    font-family: Georgia;
+    padding: 80px 200px;
+    text-align: center;
+    background-image:url("images/rice.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.navbar {
+    display: flex;
+    font-size: 18px;
+    position: sticky;
+    overflow: hidden;
+    background-color: #FDD55E;
+    top: 0;
+}
+.navbar a {
+    font-family:Abadi;
+    float: left;
+    display: block;
+    color: black;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.navbar a:hover {
+    background-color:#67595E;
+    color: #E0DAD1;
+}
+
+.navbar a.active {
+  background-color:#231B1B;
+  color: #E0DAD1;
+}
+.footer{
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  background-color:#67595E;
+  font-size: 16px;
+  width: 100%;
+  margin: 0px;
+  position: sticky;
+}
+.footer p{
+  font-family:Abadi;
+  float: left;
+  width: 100%;
+  display: block;
+  color: #F3E4E2;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+}
+.info {
+     padding: 20px 20px;
+     font-size: 18px;
+     font-family: Garamond;
+     text-overflow: ellipsis;
+}
+.image{
+  float: right;
+  padding: 30px 20px;
+  right: 0px;
+}
+.col{
+  float:left;
+
+}
+.col img{
+  height:300px;
+  width: 400px;
+}
+
+.row{
+  float:left;
+  height:33.33;
+  padding:6px;
+}
+.row img{
+  float:left;
+  width:33.33;
+  padding:6px;
+}
+.error  {
+  background-image: url("images/monkey.jpg");
+  margin: 100px;
+  background-size: contain;
+  background-size: cover;
+}
+.error a{
+  color: #FADA5E;
+}
+.error a:hover{
+  color: red;
+
+}
+.error h1{
+    color: red;
+    font-size: 38px;
+    font-family: arial;
+    padding-top: 10px;
+    position: sticky;
+    text-align: center;
+
+}
+.error h2{
+  color: white;
+  font-size: 20px;
+  font-family: Courier;
+  padding-top: 0px;
+  position: sticky;
+  text-align: center;
+
+}
+.error h3{
+    color: white;
+    font-size: 18px;
+    font-family: Georgia;
+    padding-top: 40px;
+    position: sticky;
+    text-align: center;
+
+}
